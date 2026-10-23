@@ -2,7 +2,7 @@
 ## Run from Powershell
 ## & 'C:\Program Files\R\R-4.6.1\bin\Rscript.exe' .\update_babynames.R
 
-build_babynames <- function(output_file = file.path("data", "babynames.csv")) {
+build_babynames <- function(output_file = file.path("combined_data", "babynames_national.csv")) {
   archive_url <- paste0(
     "https://codeload.github.com/bonitobird/babynamecompare_shiny/",
     "zip/refs/heads/main"
