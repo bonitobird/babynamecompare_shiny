@@ -7,7 +7,7 @@ library(dplyr)
 # df <- babynames %>% select(name, year, sex, n)
 
 df <- read.csv(
-  "https://raw.githubusercontent.com/bonitobird/babynamecompare_shiny/main/raw_data/combined_data/babynames_national.csv",
+  "https://raw.githubusercontent.com/bonitobird/babynamecompare_shiny/main/combined_data/babynames_national.csv",
   stringsAsFactors = FALSE
 )
 
