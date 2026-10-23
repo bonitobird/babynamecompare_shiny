@@ -8,3 +8,5 @@ appId: 01a1663c-9928-f6ea-bcfb-683b2a32e30a
 bundleId:
 url: https://connect.posit.cloud/ec/content/01a1663c-9928-f6ea-bcfb-683b2a32e30a
 version: 1
+asMultiple: FALSE
+asStatic: FALSE
